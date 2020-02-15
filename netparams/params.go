@@ -37,3 +37,10 @@ var SimNetParams = Params{
 	RPCClientPort: "18556",
 	RPCServerPort: "18554",
 }
+
+// Mynet
+var MyNetParams = Params{
+	Params:        &chaincfg.MyNetParams,
+	RPCClientPort: "11454",
+	RPCServerPort: "11455",
+}
